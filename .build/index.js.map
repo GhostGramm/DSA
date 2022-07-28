@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["\nconst FishArray: string[] = ['Nemo'];\n\nfunction FindNemo(arr: string[]): void {\n  for (let i = 0; i < arr.length; i++) {\n    if (FishArray[i] == \"Nemo\")\n      console.log(\"Found Nemo\");\n  }\n}\n\nFindNemo(FishArray);"],
+  "mappings": "AACA,MAAM,YAAsB,CAAC;AAE7B,kBAAkB,KAAqB;AACrC,WAAS,IAAI,GAAG,IAAI,IAAI,QAAQ,KAAK;AACnC,QAAI,UAAU,MAAM;AAClB,cAAQ,IAAI;AAAA;AAAA;AAIlB,SAAS;",
+  "names": []
+}
